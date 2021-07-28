@@ -1,0 +1,2 @@
+# ppytorch_bilstmcrf_chinese_ner
+基于pytorch+bilstm_crf的中文命名实体识别
