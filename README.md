@@ -30,7 +30,7 @@ pytorch-crf
 
 # 运行命令
 ```python
-python main.py --data_dir="../data/cnews/final_data/" --log_dir="./logs/" --output_dir="./checkpoints/" --num_tags=33 --seed=123 --gpu_ids="0" --max_seq_len=128 --lr=3e-5 --train_batch_size=32 --train_epochs=3 --eval_batch_size=32 --dropout=0.3 --dropout2=0.5  --hidden_size=128
+python main.py --data_dir="../data/cnews/final_data/" --log_dir="./logs/" --output_dir="./checkpoints/" --num_tags=33 --seed=123 --gpu_ids="0" --max_seq_len=128 --lr=3e-5 --train_batch_size=32 --train_epochs=10 --eval_batch_size=32 --dropout=0.3 --dropout2=0.5  --hidden_size=128
 ```
 
 # 结果
@@ -43,7 +43,8 @@ python main.py --data_dir="../data/cnews/final_data/" --log_dir="./logs/" --outp
 ```
 ## 测试
 ```python
-2021-07-26 20:55:02,553 - INFO - main.py - test - 185 -           precision    recall  f1-score   support
+2021-07-26 20:55:02,553 - INFO - main.py - test - 185 -          
+            precision    recall  f1-score   support
 
      PRO       0.23      0.55      0.32        11
      ORG       0.13      0.75      0.22        85
