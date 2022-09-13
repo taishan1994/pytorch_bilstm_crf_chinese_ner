@@ -10,7 +10,7 @@ vocab.txt是结合训练集、验证集、测试集里面的字生成的，可�
 ```python
 python==3.6
 pytorch==1.6.0
-pytorch-crf
+pytorch-crf==0.7.2
 ```
 
 # 文件说明
